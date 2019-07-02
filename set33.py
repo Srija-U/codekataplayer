@@ -1,6 +1,6 @@
-l=[int(i) for i in input().split()]
-n=l[0]
-a=l[1]
+li=[int(i) for i in input().split()]
+n=li[0]
+a=li[1]
 l=[int(i) for i in input().split()]
 l1=[int(i) for i in input().split()]
 for i in range(0,a):
