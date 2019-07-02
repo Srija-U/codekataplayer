@@ -1,3 +1,3 @@
 import math
-l=[int(i) for i in input().split()]
-print(math.gcd(l[0],l[1]))
+sri=[int(i) for i in input().split()]
+print(math.gcd(sri[0],sri[1]))
