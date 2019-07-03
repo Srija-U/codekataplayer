@@ -1,2 +1,2 @@
-n=int(input())
-print((n//2)+1)
+sri=int(input())
+print((sri//2)+1)
