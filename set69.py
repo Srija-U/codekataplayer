@@ -8,4 +8,4 @@ for i in range(len(s)):
     elif s[i]=='0':
         r=r+a
         a=""
-print(r)
+print(r.strip())
