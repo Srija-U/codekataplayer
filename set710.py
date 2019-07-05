@@ -1,2 +1,2 @@
-s=input()
-print(s+" Answer")
+sri=input()
+print(sri+" Answer")
