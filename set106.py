@@ -1,0 +1,5 @@
+n=input()
+l=len(n)
+a=int(n[0])
+a=a+int(n[l-1])
+print(a)
