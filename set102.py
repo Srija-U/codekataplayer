@@ -1,4 +1,5 @@
 n=str(input())
+n=n[::-1]
 r=0
 for i in range(len(n)):
     t=int(n[i])
