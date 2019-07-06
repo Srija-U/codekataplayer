@@ -1,6 +1,7 @@
 n=int(input())
 l=[int(i) for i in input().split()]
-r=l[0]
-for i in range(1,n):
-    r=r^l[i]
+r=0
+for i in range(0,n):
+    for j in range(i+1,n):
+        r=l[i]^l[j]
 print(r)
