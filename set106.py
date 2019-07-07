@@ -1,5 +1,5 @@
 n=input()
-l=len(n)
+sri=len(n)
 a=int(n[0])
-a=a+int(n[l-1])
+a=a+int(n[sri-1])
 print(a)
