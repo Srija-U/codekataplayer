@@ -1,6 +1,6 @@
-s,a=map(str,input().split())
+s,a1=map(str,input().split())
 f=0
-a=int(a)
+a=int(a1)
 s=list(s)
 for i in range(a+1):
     if(str(i) in s):
