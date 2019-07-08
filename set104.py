@@ -1,4 +1,5 @@
-s=input()
+s1=input()
+s=s1
 c=0
 for i in range(len(s)):
     for j in range(i+1,len(s)):
