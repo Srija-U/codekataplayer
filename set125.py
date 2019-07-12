@@ -1,0 +1,11 @@
+s1,s2=map(str,input().split())
+l1=len(s1)
+l2=len(s2)
+if(l1==l2):
+    print(s1+s2)
+elif(l1<l2):
+    c=s2[:l1]
+    print(s1+c)
+else:
+    c=s1[:l2]
+    print(c+s2)
