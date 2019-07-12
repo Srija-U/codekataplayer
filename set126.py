@@ -1,19 +1,14 @@
 n=int(input())
 l=[int(i) for i in input().split()]
-d={}
+l=list(set(l))
+b=[]
 res=[]
-for i in range(n):
-    t=l.count(l[i])
-    d[l[i]]=t
-l1=list(d.values())
-l1.sort()
-l1=l1[::-1]
-for i in l1:
-    for j in d:
-        te=d.get(j)
-        if te==i:
-            res.append(j)
-            d.pop(j)
-            break
-res=res[::-1]
-print(sep=" ",*res)
+c=0
+for i in l:
+    b.append(l.count(i))
+while c<len(b):
+    t=b.index(max(b))
+    res.append(l[t])
+    b[t]=0
+    c+=1
+print(*res)
