@@ -15,4 +15,5 @@ for i in l1:
             res.append(j)
             d.pop(j)
             break
+res=res[::-1]
 print(sep=" ",*res)
