@@ -9,7 +9,6 @@ for i in range(m,len(l)):
     l2.append(l[i])
 for i in range(0,m):
     if l1[i] in l2:
-        if l1[i] not in res:
-            res.append(l1[i])
+        res.append(l1[i])
 res.sort()
 print(sep=" ",*res)
