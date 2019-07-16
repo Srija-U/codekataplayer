@@ -6,4 +6,5 @@ for i in l:
     if(t<k):
         if(i not in res):
             res.append(i)
+res.sort()
 print(*res)
