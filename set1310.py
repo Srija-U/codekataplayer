@@ -6,4 +6,4 @@ for i in range(n):
     if sum(t)%2==0:
         print(sum(t),end=" ")
     else:
-        print(l[i])
+        print(l[i],end=" ")
